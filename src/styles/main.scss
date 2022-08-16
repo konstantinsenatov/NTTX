@@ -1,0 +1,23 @@
+/* base */
+@import "base/var";
+@import "base/reset";
+@import "base/fonts";
+
+/* mixin */
+@import "base/mixin";
+
+/*libs*/
+
+
+/* main */
+@import "partials/main";
+
+/* components */
+@import "partials/header";
+@import "partials/footer";
+
+
+/*pages*/
+@import "pages/consulting";
+
+

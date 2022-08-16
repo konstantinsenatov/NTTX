@@ -1,0 +1,181 @@
+extends ../layouts/default
+
+block vars
+	-
+		const page = {
+			title: 'nttx'
+		};
+
+block main
+	.hero 
+		.container 
+			.hero__wrapper
+				.hero__body 
+					h1.hero__title
+						span Акционерное общество
+						span.hero__title--inner-desktop
+							|«Национальный институт радио 
+							br
+							|и инфокоммуникационных технологий» 
+						span.hero__title--inner-mobile
+							|«Национальный
+							br
+							|институт радио и 
+							br
+							|инфокоммуникацион
+							br
+							|ных технологий» 
+						span 
+							|(АО «НИРИТ»)
+					p.hero__text
+						|– компания более, 
+						span чем с 15-ти летним опытом 
+						|разработки телекоммуникационного оборудования, проектирования, сооружения и эксплуатации сетей связи, один из ведущих научно-производственных и учебных комплексов отрасли. 
+						br
+						|В портфолио компании – успешная реализация самых разных телекоммуникационных проектов: от строительств объектов связи, разработка и производства высокотехнологичных узкополосных радиомодемов, полосных фильтров, проектирование, строительство и эксплуатация сложных телекоммуникационных комплексов в рамках федеральной целевой программы цифрового телевидения и проекта развертывания национальной сети профессиональной радиосвязи МАКВИЛ.
+
+	.service 
+		.container
+			.service__items 
+				.service__item 
+					.service__column 
+						.service__image.ibg 
+							img(src="images/service/1.jpg" alt="designing" loading="lazy")
+						.service__title Проектирование
+						.service__text В портфолио компании – успешная реализация самых разных коммуникационных проектов
+				.service__item 
+					.service__column 
+						.service__image.ibg 
+							img(src="images/service/2.jpg" alt="building" loading="lazy")
+						.service__title Строительство
+						.service__text В портфолио компании – успешная реализация самых разных коммуникационных проектов
+				.service__item 
+					.service__column 
+						.service__image.ibg 
+							img(src="images/service/3.jpg" alt="service" loading="lazy")
+						.service__title Обслуживание
+						.service__text В портфолио компании – успешная реализация самых разных коммуникационных проектов
+				.service__item 
+					.service__column 
+						.service__image.ibg 
+							img(src="images/service/4.jpg" alt="сonsulting" loading="lazy")
+						.service__title Консалтинг
+						.service__text В портфолио компании – успешная реализация самых разных коммуникационных проектов
+				.service__item 
+					.service__column 
+						.service__image.ibg 
+							img(src="images/service/5.jpg" alt="repair" loading="lazy")
+						.service__title Ремонт
+						.service__text В портфолио компании – успешная реализация самых разных коммуникационных проектов
+
+	.about 
+		.container 
+			.about__items 
+				.about__item 
+					.about__row
+						.about__icon 
+							img(src="images/about/1.svg" alt="about" loading="lazy")
+						.about__body
+							.about__title Многолетний опыт 
+							.about__text и лучшие специалисты в отрасли
+				.about__item 
+					.about__row 
+						.about__icon 
+							img(src="images/about/2.svg" alt="about" loading="lazy")
+						.about__body
+							.about__title Комплексная экспертиза
+							.about__text 
+								|от разработки оборудования 
+								br
+								|до строительства и эксплуатации сетей
+				.about__item 
+					.about__row 
+						.about__icon 
+							img(src="images/about/3.svg" alt="about" loading="lazy")
+						.about__body
+							.about__title 
+								|Решение любых нестандартных
+								br
+								|задач
+							.about__text в области радиосвязи 
+
+	.form 
+		.container 
+			.form__wrapper
+				.form__subtitle Остались вопросы?
+				.form__title Получите ответ
+				.form__body 
+					.form__body--container 
+						.form__body--title Оставьте свои контактные данные и наши специалисты свяжутся с вами в ближайшее время.
+						form.form__body--main.form-general(action="#") 
+							.form-general__row-top
+								.form-general__input
+									input#input1.form__body--input-inner.form-general__input--inner.form-general__input--inner1(type="text" value="")
+									span.form-general__input--inner-placeholder.form-general__input--inner-placeholder1
+										|Ваше имя
+								.form-general__input
+									input#input2.form__body--input-inner.form-general__input--inner.form-general__input--inner2(type="text" value="")
+									span.form-general__input--inner-placeholder.form-general__input--inner-placeholder2
+										|E-mail
+										span *
+								.form-general__input
+									input#input3.form__body--input-inner.form-general__input--inner.form-general__input--inner3(type="tel" value="")
+									span.form-general__input--inner-placeholder.form-general__input--inner-placeholder3
+										|+7 (___) - ___ - __ - __
+										span *
+							.form__body--massage.form-general__input.form-general__input-massage
+								textarea#textArea.form__body--input-inner-massage.form-general__input--inner.form-general__input-massage--inner(type="text" value="")
+								span.form-general__input--inner-placeholder.form-general__input--inner-placeholder4
+									|Сообщение
+							.form-general__row-bottom
+								.form-general__button 
+									button.form-general__button--inner Получить ответ
+								.form-general__agree 
+									.form-general__checkbox
+										input#form__body-Agreement.form-general__checkbox--input(checked type='checkbox' name='agreement')
+										label.form-general__checkbox--label(for='form__body-Agreement')
+									span
+										| Я соглашаюсь с прочитанной мной 
+										a(href='#') политикой конфиденциальности
+
+	.partners
+		.container 
+			.partners__title Партнеры
+			.partners__subtitle нашего института
+			.partners__items 
+				.partners__item
+					.partners__image 
+						img(src="images/partners/1.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/2.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/3.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/4.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/5.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/6.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/7.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/8.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/9.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/10.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/11.svg" alt="partner" loading="lazy")
+				.partners__item
+					.partners__image 
+						img(src="images/partners/12.svg" alt="partner" loading="lazy")

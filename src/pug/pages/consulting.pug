@@ -1,0 +1,70 @@
+extends ../layouts/default
+
+block vars
+	-
+		const page = {
+			title: 'nttx'
+		};
+
+block main
+	.consulting
+		.container 
+			.top-menu 
+				a(href="#") Главная 
+				|/ 
+				a(href="#") Услуги 
+				|/ 
+				a(href="#") Консалтинг
+			.consulting__body 
+				.consulting__title Консалтинг
+				.text_page 
+					img(src="images/pages/consulting/image.jpg" alt="consulting")
+					p Выступая в качестве эксперта и подрядчика, ЗАО НИРИТ осуществляет всестороннюю консалтинговую поддержку наших заказчиков в рамках решения стоящих перед ними задач в области телекоммуникаций, направленную на минимизацию рисков, связанных с проектированием, сооружением и эксплуатацией систем связи, в том числе:
+					ul 
+						li 
+							|обоснование выбора технологии связи, помощь в выборе поставщиков и заключении контрактов на поставку;
+						li
+							|подготовка заявительной документации и оказание помощи в получении разрешительных документов государственных радиочастотных органов (Минкомсвязи России, ФГУП ГРЧЦ, ФГУП РЧЦ ЦФО и т.д.), а также в продлении действующих документов на период функционирования сетей связи;
+						li
+							|подготовка технической документации и получение сертификатов и деклараций на соответствие требованиям технического регламента таможенного союза;
+						li
+							|проверка проектно-сметных расчетов по всем разделам проектной документации на основании сборников сметно-нормативной базы, применяемой на территории РФ; 
+						li
+							|повышение квалификации инженерно-технического состава компаний по вопросам развития современных радио и инфокоммуникационных технологий;
+						li
+							|оказание юридической помощи по вопросам телекоммуникационного рынка.
+			.consulting__form
+				.consulting__form--title Остались вопросы?
+				.consulting__form--subtitle Оставьте свои контактные данные и наши специалисты свяжутся с вами в ближайшее время.
+						form.form__body--main.form-general(action="#") 
+							.form-general__row-top
+								.form-general__input
+									input#input1.form__body--input-inner.form-general__input--inner.form-general__input--inner1(type="text" value="")
+									span.form-general__input--inner-placeholder.form-general__input--inner-placeholder1
+										|Ваше имя
+								.form-general__input
+									input#input2.form__body--input-inner.form-general__input--inner.form-general__input--inner2(type="text" value="")
+									span.form-general__input--inner-placeholder.form-general__input--inner-placeholder2
+										|E-mail
+										span *
+								.form-general__input
+									input#input3.form__body--input-inner.form-general__input--inner.form-general__input--inner3(type="tel" value="")
+									span.form-general__input--inner-placeholder.form-general__input--inner-placeholder3
+										|+7 (___) - ___ - __ - __
+										span *
+							.form__body--massage.form-general__input.form-general__input-massage
+								textarea#textArea.form__body--input-inner-massage.form-general__input--inner.form-general__input-massage--inner(type="text" value="")
+								span.form-general__input--inner-placeholder.form-general__input--inner-placeholder4
+									|Сообщение
+							.form-general__row-bottom
+								.form-general__button 
+									button.form-general__button--inner Получить ответ
+								.form-general__agree 
+									.form-general__checkbox
+										input#form__body-Agreement.form-general__checkbox--input(checked type='checkbox' name='agreement')
+										label.form-general__checkbox--label(for='form__body-Agreement')
+									span
+										| Я соглашаюсь с прочитанной мной 
+										a(href='#') политикой конфиденциальности
+
+

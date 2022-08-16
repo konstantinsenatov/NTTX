@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Muller';
+	src: url('../fonts/Muller/Muller.eot');
+	src: local('Muller'), local('../fonts/Muller/Muller'),
+		url('../fonts/Muller/Muller.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Muller/Muller.woff') format('woff'),
+		url('../fonts/Muller/Muller.ttf') format('truetype');
+	font-display: swap
+}
+
+
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri/Calibri.eot');
+	src: local('Calibri'), local('../fonts/Calibri/Calibri'),
+		url('../fonts/Calibri/Calibri.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Calibri/Calibri.woff') format('woff'),
+		url('../fonts/Calibri/Calibri.ttf') format('truetype');
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('../fonts/helveticaneuecyr-bold/helveticaneuecyr-bold.eot');
+	src: local('helveticaneuecyr-bold'), local('../fonts/helveticaneuecyr-bold/helveticaneuecyr-bold'),
+		url('../fonts/helveticaneuecyr-bold/helveticaneuecyr-bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/helveticaneuecyr-bold/helveticaneuecyr-bold.woff') format('woff'),
+		url('../fonts/helveticaneuecyr-bold/helveticaneuecyr-bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('../fonts/helveticaneuecyr-medium/helveticaneuecyr-medium.eot');
+	src: local('helveticaneuecyr-medium'), local('../fonts/helveticaneuecyr-medium/helveticaneuecyr-medium'),
+		url('../fonts/helveticaneuecyr-medium/helveticaneuecyr-medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/helveticaneuecyr-medium/helveticaneuecyr-medium.woff') format('woff'),
+		url('../fonts/helveticaneuecyr-medium/helveticaneuecyr-medium.ttf') format('truetype');
+	font-weight: 550;
+	font-style: normal;
+	font-display: swap
+}
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('../fonts/helveticaneuecyr-roman/helveticaneuecyr-roman.eot');
+	src: local('helveticaneuecyr-roman'), local('../fonts/helveticaneuecyr-roman/helveticaneuecyr-roman'),
+		url('../fonts/helveticaneuecyr-roman/helveticaneuecyr-roman.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/helveticaneuecyr-roman/helveticaneuecyr-roman.woff') format('woff'),
+		url('../fonts/helveticaneuecyr-roman/helveticaneuecyr-roman.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}

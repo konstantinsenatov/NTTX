@@ -1,0 +1,389 @@
+header.header
+	.container 
+		.header__top 
+			.header__burger 
+				span
+				span 
+				span
+			.header__logo 
+				a(href="#") 
+					img(src="images/logo.svg" alt="Logo" loading="lazy")
+			.header__tel 
+				a(href="tel:4959251060") +7 (495) 925-10-60 
+				button.header__tel--order Заказать звонок
+		.header__bottom 
+			.header__menu.menu-header 
+				ul.menu-header__list
+					li.menu-header__item 
+						a.menu-header__link(href="#")
+							span Главная
+					li.menu-header__item
+						a.menu-header__link(href="#")
+							span Об институте
+							img(src="images/arrow.svg" alt="arrow" loading="lazy")
+						.menu-header__drop
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link(href="#")
+							span Услуги
+							img(src="images/arrow.svg" alt="arrow" loading="lazy")
+						.menu-header__drop
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link(href="#")
+							span Оборудование
+							img(src="images/arrow.svg" alt="arrow" loading="lazy")
+						.menu-header__drop
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link(href="#")
+							span Научная деятельность
+							img(src="images/arrow.svg" alt="arrow" loading="lazy")
+						.menu-header__drop
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link(href="#")
+							span Конференции
+							img(src="images/arrow.svg" alt="arrow" loading="lazy")
+						.menu-header__drop
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link(href="#")
+							span Контакты
+
+	.header__menu-mobile.mobile-header-menu
+		.mobile-header-menu__close
+		.container.mobile-header-menu__container
+			ul.mobile-header-menu__list
+				li.mobile-header-menu__item 
+					a.mobile-header-menu__link(href="#") 
+						span Главная
+				li.mobile-header-menu__item
+					a.mobile-header-menu__link(href="#" onclick="mobile_header_spoiler(this)") 
+						span Об институте
+						img(src="images/arrow.svg" alt="arrow" loading="lazy")
+					ul.mobile-header-menu__list-inner 
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Контакты
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Руководство
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Отзывы клиентов
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Сертификаты и разрешения
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши книги
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши статьи
+
+				li.mobile-header-menu__item 
+					a.mobile-header-menu__link(href="#" onclick="mobile_header_spoiler(this)") 
+						span Услуги
+						img(src="images/arrow.svg" alt="arrow" loading="lazy")
+					ul.mobile-header-menu__list-inner 
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Контакты
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Руководство
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Отзывы клиентов
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Сертификаты и разрешения
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши книги
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши статьи
+
+				li.mobile-header-menu__item 
+					a.mobile-header-menu__link(href="#" onclick="mobile_header_spoiler(this)") 
+						span Оборудование
+						img(src="images/arrow.svg" alt="arrow" loading="lazy")
+					ul.mobile-header-menu__list-inner 
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Контакты
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Руководство
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Отзывы клиентов
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Сертификаты и разрешения
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши книги
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши статьи
+
+				li.mobile-header-menu__item 
+					a.mobile-header-menu__link(href="#" onclick="mobile_header_spoiler(this)") 
+						span Научная деятельность
+						img(src="images/arrow.svg" alt="arrow" loading="lazy")
+					ul.mobile-header-menu__list-inner 
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Контакты
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Руководство
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Отзывы клиентов
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Сертификаты и разрешения
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши книги
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши статьи
+
+				li.mobile-header-menu__item 
+					a.mobile-header-menu__link(href="#" onclick="mobile_header_spoiler(this)") 
+						span Конференции
+						img(src="images/arrow.svg" alt="arrow" loading="lazy")
+					ul.mobile-header-menu__list-inner 
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Контакты
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Руководство
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Отзывы клиентов
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Сертификаты и разрешения
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши книги
+						li.mobile-header-menu__item-inner 	
+							a.mobile-header-menu__link-inner(href="#") Наши статьи
+
+				li.mobile-header-menu__item 
+					a.mobile-header-menu__link(href="#") 
+						span Контакты
+
+	
+	.header__fixed 
+		.container 
+			.header__fixed--menu.menu-header
+				.header__fixed--logo
+					img(src="images/logo-fixed.svg" alt="Logo" loading="lazy")
+				ul.menu-header__list
+					li.menu-header__item.header__fixed--item-none
+						a.menu-header__link(href="#")
+							span Главная
+					li.menu-header__item
+						a.menu-header__link
+							span Об институте
+							img(src="images/arrow-grey.svg" alt="arrow-grey" loading="lazy")
+						.menu-header__drop.menu-header__drop-fixed
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link
+							span Услуги
+							img(src="images/arrow-grey.svg" alt="arrow-grey" loading="lazy")
+						.menu-header__drop.menu-header__drop-fixed
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link
+							span Оборудование
+							img(src="images/arrow-grey.svg" alt="arrow-grey" loading="lazy")
+						.menu-header__drop.menu-header__drop-fixed
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link
+							span Научная деятельность
+							img(src="images/arrow-grey.svg" alt="arrow-grey" loading="lazy")
+						.menu-header__drop.menu-header__drop-fixed
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item 
+						a.menu-header__link
+							span Конференции
+							img(src="images/arrow-grey.svg" alt="arrow-grey" loading="lazy")
+						.menu-header__drop.menu-header__drop-fixed
+							.menu-header__drop--inner
+								ul.menu-header__drop--list
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Руководство
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Отзывы клиентов
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Сертификаты и разрешения
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши книги
+									li.menu-header__drop--item 
+										a.menu-header__drop--link(href="#")
+											|Наши статьи
+					li.menu-header__item.header__fixed--item-none 
+						a.menu-header__link(href="#")
+							span Контакты
+				.header__fixed--tel 
+					a(href="tel:4959251060") +7 (495) 925-10-60 
+
+	.header__popap-back
+	.header__popap-order.order-popap-header 
+		.order-popap-header__close
+		.order-popap-header__container 
+			.order-popap-header__title Заказать звонок
+			.order-popap-header__text 
+				|Оставьте свои контактные данные и наши специалисты свяжутся с вами в ближайшее время.
+			form.order-popap-header__form(action="#") 
+				label.order-popap-header__form--input-wrapper
+					input#header_input1.order-popap-header__form--input.order-popap-header__form--input1(type="text" value="")
+					span.order-popap-header__form--input-placeholder.order-popap-header__form--input-placeholder1
+						|Ваше имя
+				label.order-popap-header__form--input-wrapper
+					input#header_input2.order-popap-header__form--input.order-popap-header__form--input2(type="tel" value="")
+					span.order-popap-header__form--input-placeholder.order-popap-header__form--input-placeholder2
+						|+7 (___) - ___ - __ - __
+						span *
+				button.order-popap-header__form--button(type="submit") Получить ответ
+			.order-popap-header__footer 
+				.order-popap-header__footer--checkbox-wrapper
+					input#formAgreement.order-popap-header__footer--checkbox-input(checked type='checkbox' name='agreement')
+					label.order-popap-header__footer--checkbox-label(for='formAgreement')
+				span
+					| Я соглашаюсь с прочитанной мной 
+					br
+					a(href='#') политикой конфиденциальности
+
+
+
